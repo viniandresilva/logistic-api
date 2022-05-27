@@ -1,14 +1,12 @@
 package logistic.api;
 
-import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class LogisticapiApplication {
+public class LogisticApiApplication {
     public static void main(String[] args) {
-        SpringApplication.run(LogisticapiApplication.class, args);
+        SpringApplication.run(LogisticApiApplication.class, args);
     }
 
 }
